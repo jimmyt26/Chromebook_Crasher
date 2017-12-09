@@ -12,5 +12,7 @@ if (popUp == null || typeof(popUp) == 'undefined') {
   var win = window.open(URL, "_blank", strWindowFeatures);
   setTimeout(function() {
     for (var i = 0; i === i; i++) {}
+    txt = "a";
+    txt = txt += "a";
   }, 50);
 }
