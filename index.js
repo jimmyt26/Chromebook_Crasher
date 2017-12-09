@@ -2,7 +2,7 @@ var windowName = 'userConsole';
 var popUp = window.open('/popup-page.php', windowName, 'width=1000, height=700, left=24, top=24, scrollbars, resizable');
 if (popUp == null || typeof(popUp) == 'undefined') {
   while (true) {
-    confirm("Thicc Katzz")
+    alert("Thicc Katz")
   }
 } else {
   while (true) {
