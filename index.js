@@ -7,7 +7,7 @@ if (popUp == null || typeof(popUp) == 'undefined') {
 } else {
   window.open("http://kplibrary.cf/")
     //: Opens new tab of kplibrary.cf
-  for (var i = 0; i < 4; i++) {
+  for (var i = 0; i < 2; i++) {
     //: This part opens kplibrary.cf 4 times 
     var strWindowFeatures = "location=yes,height=670,width=620,scrollbars=yes,status=yes";
     var URL = "http://kplibrary.cf/" + location.href;
