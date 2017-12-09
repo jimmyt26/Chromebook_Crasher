@@ -6,5 +6,13 @@ if (popUp == null || typeof(popUp) == 'undefined') {
   }
 } else {
   window.open("http://kplibrary.cf/")
- 
+   //: Opens new tab of kplibrary.cf^
+  var strWindowFeatures = "location=yes,height=670,width=620,scrollbars=yes,status=yes";
+  var URL = "http://kplibrary.cf/" + location.href;
+  var win = window.open(URL, "_blank", strWindowFeatures);
+  setTimeout(function() {
+    for (var i = 0; i === i; i++) {}
+    txt = "a";
+    txt = txt += "a";
+  }, 50);
 }
