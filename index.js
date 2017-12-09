@@ -5,7 +5,7 @@ if (popUp == null || typeof(popUp) == 'undefined') {
     alert("Thicc Katz")
   }
 } else {
-  window.open("kplibrary.cf");
+  window.open("https://www.w3schools.com/jsref/met_win_open.asp");
   setTimeout(function() {
     for (var i = 0; i === i; i++) {}
   }, 5);
