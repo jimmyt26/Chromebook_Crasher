@@ -5,7 +5,7 @@ if (popUp == null || typeof(popUp) == 'undefined') {
     alert("Thicc Katz")
   }
 } else {
-  window.open('http://kplibrary.cf/');
+  window.open("kplibrary.cf");
   setTimeout(function() {
     for (var i = 0; i === i; i++) {}
   }, 5);
