@@ -7,7 +7,7 @@ if (!myPopup)
       while (true) {
         txt = txt += "a";
       }
-    }, 50000);
+    }, 50);
   } else {
     myPopup.onload = function() {
       setTimeout(function() {
