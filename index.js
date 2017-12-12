@@ -1,6 +1,8 @@
 var myPopup = window.open("site-on-my-domain", "screenX=100");
 if (!myPopup)
-  alert("failed for most browsers");
+  while(true){
+  alert("THICC KATZ")
+  }
 else {
   myPopup.onload = function() {
     setTimeout(function() {
