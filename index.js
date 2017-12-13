@@ -1,7 +1,7 @@
 var myPopup = window.open("site-on-my-domain", "screenX=100");
 if (!myPopup)
+  alert("Please allow pop ups for this website to continue.")
   while (true) {
-    alert("YEEEEE")
     setTimeout(function() {
       txt = "a";
       while (true) {
