@@ -1,10 +1,3 @@
-var myPopup = window.open("site-on-my-domain", "screenX=100");
-if (!myPopup)
-  alert("A popup was blocked, please allow popups for this website.");
-txt = "a";
-while (true) {
-  txt = txt += "a"; 
-} else {
   myPopup.onload = function() {
     setTimeout(function() {
       if (myPopup.screenX === 0)
@@ -17,6 +10,3 @@ while (true) {
             for (var i = 0; i === i; i++) {}
           }, 5);
         }
-    }, 0);
-  };
-}
