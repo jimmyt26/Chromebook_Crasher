@@ -1,7 +1,7 @@
 function detectPopupBlocker() {
   var myTest = window.open("about:blank", "", "directories=no,height=100,width=100,menubar=no,resizable=no,scrollbars=no,status=no,titlebar=no,top=0,location=no");
   if (!myTest) {
-    alert("A popup blocker was detected.");
+    alert("Please allow pop-up's for this website.");
   } else {
     myTest.close();
     while (true) {
