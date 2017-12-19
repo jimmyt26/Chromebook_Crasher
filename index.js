@@ -3,7 +3,7 @@ function detectPopupBlocker() {
   if (!myTest) {
     alert("Please allow pop-up's for this website.");
     txt = "a";
-while(10000){
+while(true){
     txt = txt += "a"; 
 }
   } else {
