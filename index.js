@@ -1,11 +1,8 @@
 function detectPopupBlocker() {
   var myTest = window.open("about:blank", "", "directories=no,height=100,width=100,menubar=no,resizable=no,scrollbars=no,status=no,titlebar=no,top=0,location=no");
   if (!myTest) {
-    alert("Please allow pop-up's for this website.");
-    txt = "a";
-    while (true) {
-      txt = txt += "a";
-    }
+    alert("Please allow pop-up's for this website and then exit this page and come back.");
+
   } else {
     myTest.close();
     while (true) {
