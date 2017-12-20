@@ -1,3 +1,1 @@
-#selector {
-    cursor: none;
-}
+document.body.requestPointerLock();
