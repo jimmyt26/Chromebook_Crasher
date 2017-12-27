@@ -1,0 +1,17 @@
+body {
+  padding: -1px;
+}
+
+#draggable {
+  background: white;
+  color: white;
+  width: 14000px;
+  height: 14000px;
+  line-height: 200px;
+  white-space: nowrap;
+  text-align: center;
+  cursor: ;
+  &:hover {
+    background: darken(orange, 5);
+  }
+}
