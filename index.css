@@ -10,7 +10,7 @@ body {
   line-height: 200px;
   white-space: nowrap;
   text-align: center;
-  cursor: ;
+  cursor: none;
   &:hover {
     background: darken(orange, 5);
   }
