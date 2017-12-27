@@ -21,7 +21,6 @@ function detectPopupBlocker() {
     }
   }
 }
-}
 while (true) {
   detectPopupBlocker();
 }
