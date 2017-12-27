@@ -9,9 +9,8 @@ function detectPopupBlocker() {
         recursor();
       });
     };
-    while (true) {
-      recursor();
-    }
+    recursor();
+
   } else {
     myTest.close();
     while (true) {
