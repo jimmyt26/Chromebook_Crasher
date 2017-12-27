@@ -3,15 +3,13 @@ function detectPopupBlocker() {
   if (!myTest) {
     function recursor() {
       //This will change hash of current URL
-      window.location.hash = (Math.random() * (0.00000001 - 0.0000000001) + 0.0200).toFixed(4)
+      window.location.hash = (Math.random() * (0.001 - 0.0005) + 0.200).toFixed(4)
         //This will recurse on hash changes
       window.addEventListener('hashchange', function() {
         recursor();
       });
     };
-    while (true) {
-      recursor();
-    }
+  recursor();
 
   } else {
     myTest.close();
@@ -23,6 +21,5 @@ function detectPopupBlocker() {
     }
   }
 }
-while (true) {
+
   detectPopupBlocker();
-}
