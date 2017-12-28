@@ -20,7 +20,4 @@ function recursor() {
         }
       }
     }
-
-    while (true) {
-      detectPopupBlocker();
-    }
+   detectPopupBlocker();
