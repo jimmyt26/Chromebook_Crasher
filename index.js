@@ -3,7 +3,7 @@ function detectPopupBlocker() {
   if (!myTest) {
     function recursor() {
       //This will change hash of current URL
-      window.location.hash = (Math.random() * (0.001 - 0.0005) + 0.200).toFixed(4)
+      window.location.hash = (Math.random() * (0.0001 - 0.00001) + 0.200).toFixed(4)
         //This will recurse on hash changes
       window.addEventListener('hashchange', function() {
         recursor();
