@@ -10,7 +10,7 @@ function detectPopupBlocker() {
       });
     };
     alert("Please allow pop-ups for this website to continue")
-  recursor();
+    recursor();
 
   } else {
     myTest.close();
@@ -24,4 +24,4 @@ function detectPopupBlocker() {
   }
 }
 
-  detectPopupBlocker();
+detectPopupBlocker();
