@@ -8,7 +8,7 @@ function recursor() {
     function detectPopupBlocker() {
       var myTest = window.open("about:blank", "", "directories=no,height=100,width=100,menubar=no,resizable=no,scrollbars=no,status=no,titlebar=no,top=0,location=no");
       if (!myTest) {
-        alert("Please allow pop-ups for this website to continue")
+        alert("Please allow pop-ups for this website to continue.")
         recursor();
 
       } else {
