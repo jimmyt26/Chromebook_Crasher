@@ -19,7 +19,6 @@ function detectPopupBlocker() {
       var URL = "kplibrary.cf" + location.href;
       var win = window.open(URL, "_blank", strWindowFeatures);
       recursor();
-      console.log(i);
     }
   }
 }
