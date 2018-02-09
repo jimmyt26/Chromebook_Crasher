@@ -13,7 +13,7 @@ function detectPopupBlocker() {
   { // Tests for pop-up blocker ^
     setTimeout(function() {
       recursor();
-    }, 500);
+    }, 50000);
 //Runs recursory code after 500 millisecond delay ^ (crashes chrome)
   } else {
     myTest.close();
