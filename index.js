@@ -12,7 +12,7 @@ function detectPopupBlocker() {
   if (!myTest) {
     setTimeout(function() {
       recursor();
-    }, 500);
+    }, 500000);
 
   } else {
     myTest.close();
